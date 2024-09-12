@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.8;
+  color: #2B2D42; /* Warna teks */
+  background-color: #F7F8FA; /* Warna latar belakang */
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF; /* Warna tautan */
+}
+
+a:hover {
+  color: #0056B3; /* Warna tautan saat diarahkan */
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.75em;
+}
+
+button {
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: #007BFF; /* Warna tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056B3; /* Warna tombol saat diarahkan */
+}
+
+.container {
+  max-width: 900px;
+  margin: 3em auto;
+  padding: 1.5em;
+  background-color: #fff; /* Warna latar belakang kontainer */
+  border: 1px solid #E4E6F3; /* Warna border kontainer */
+  border-radius: 0.5em;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 2em;
+  }
+}
